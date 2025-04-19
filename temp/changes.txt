@@ -1,0 +1,33 @@
+
+[1] Changes in CartController
+// const { userId, cartItems } = req.body 
+
+ #instead of
+        const cartItems = req.body.cartItems;
+        const userId = req.userId;
+________________________________________________________       
+[2] Changes in UserController
+ //const { userId } = req.body;
+
+ #instead of
+        const { userId } = req;
+_________________________________________________________
+[3] addressController
+
+ //const { address, userId } = req.body
+
+
+        const address = req.body.address;
+        const userId = req.userId;
+__________________________________________________________
+[4] addressController
+
+//const { userId } = req.body;
+
+ #instead of
+        const { userId } = req;
+____________________________________________________________
+[5] orderController
+
+ //const { userId } = req.body;
+        const { userId } = req;
