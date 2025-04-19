@@ -40,7 +40,8 @@ export const placeOrderCOD = async (req, res) => {
 export const placeOrderStripe = async (req, res) => {
 
     try {
-        const { userId, items, address } = req.body;
+        const { items, address } = req.body;
+        const { userId } = req;
         const { origin } = req.headers;
 
         if (!address || items.length === 0) {
