@@ -2,7 +2,7 @@ import React from 'react'
 import ProductCard from './ProductCard'
 import { useAppContext } from '../context/AppContext'
 
-const Bestseller = () => {
+const BestSeller = () => {
     const {products}= useAppContext();
   return (
     <div className='mt-16'>
@@ -18,4 +18,4 @@ const Bestseller = () => {
   )
 }
 
-export default Bestseller
+export default BestSeller
