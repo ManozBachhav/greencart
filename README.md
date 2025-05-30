@@ -5,7 +5,7 @@
 
 ## 🚀 Live Demo
 
-Coming soon...
+https://greencart-theta-wheat.vercel.app/
 
 ---
 
