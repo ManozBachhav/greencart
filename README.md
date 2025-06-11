@@ -1,7 +1,7 @@
 
 # 🌱 Greencart
 
-**Greencart** is an innovative full-stack e-commerce platform that connects local producers—such as farmers, bakers, and poultry farmers—directly with consumers. Built from scratch, this project promotes fair pricing, fresher goods, and stronger local economies by eliminating the need for middlemen.
+**Greencart** is an innovative full-stack e-commerce platform that connects local producers—such as farmers, bakers, and poultry farmers—directly with consumers. Built from scratch, this project promotes fair pricing, fresher goods, and stronger local economies by eliminating the need for middlemen.It also featured with Admin pannel means a Seller Dashboard who can manage products and also integrate with cash on delivery and online payments
 
 ## 🚀 Live Demo
 
@@ -100,12 +100,12 @@ npm start
 
 ## ⚙️ Future Improvements
 
-* Admin Dashboard
+* UPI integration for online payments
 * Product stock notifications
 * Delivery tracking system
 * Farmer onboarding panel
 * Multilingual support
-* Integration with UPI
+
 
 ---
 
